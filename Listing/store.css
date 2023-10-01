@@ -1,0 +1,393 @@
+body{
+    font-size: 18px;
+    margin: auto;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+nav{
+    border-bottom: 2px solid #c0bbba;
+}
+.container{
+    /* border: 2px solid blue; */
+    width: 80%;
+}
+
+.socialicon img{
+    height: 30px;
+    text-decoration-line: none;
+    
+}
+
+header{
+    height: 100px;
+
+}
+
+.maincontainer{
+    /* border: 5px solid rgb(44, 18, 192); */
+    margin: 2%;
+    width: 96%;
+
+}
+
+.store{
+    /* border: 2px solid rgb(38, 192, 18); */
+    width: 75%;
+    margin-left: 13%;
+}
+.mycookbooksheading{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 2em;
+    color: #515555;
+    line-height: 3em;
+    
+}
+
+.content-container{
+    /* border: 2px solid rgb(18, 192, 99); */
+    width: 100%;
+    display: flex;
+
+}
+.container-ebook{
+    /* border: 2px solid rgb(215, 24, 196); */
+    width: 70%;
+}
+
+.shortdetails-recommended{
+    /* border: 2px solid rgb(81, 91, 21); */
+    display: block;
+    width: 30%;
+    margin-top: 0;
+
+}
+
+.shortdetails-container{
+    border: 5px solid #f2f2f2;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 10PX;
+
+}
+.shortmyimage{
+    /* border: 2px solid rgb(24, 215, 135); */
+
+    height: 270px; 
+    margin-top: 10%;
+    width: 100%;
+
+ }
+ .shortmyimage img{
+     width:70%;
+     height: 200px;     
+     border-radius: 50%;
+     margin-top: 10%;
+     margin-left: 15%;
+     /* border: 2px solid rgb(24, 215, 135); */
+ }
+
+
+
+.shortmytext{
+    font-size: 15px;
+    width: 96%;
+    margin: 3%;
+    margin-top: 3%;
+    /* border: 2px solid rgb(24, 215, 135); */
+    line-height: 1.5rem;
+
+}
+.hi{
+    font-weight: 500;
+}
+
+.findme{
+    /* border: 2px solid rgb(69, 24, 215); */
+    color:#ba4e2f;
+
+}
+.learnmore{
+    /* border: 2px solid rgb(69, 24, 215); */
+    text-align: center;
+    color:#ba4e2f;
+}
+
+
+.books-container{
+    /* border: 2px solid rgb(221, 240, 116); */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.bookcontainer{
+    /* border: 2px solid rgb(6, 176, 244); */
+    width: 22%; 
+    margin: 2%;
+   
+}
+.bookimage{
+    /* border: 2px solid rgb(244, 89, 6); */
+    width: 100%; 
+    height: 200px;  
+}
+.bookimage img{
+    width: 100%; 
+    height: 200px;  
+}
+.bookheading{
+    /* border: 2px solid rgb(244, 89, 6); */
+    width: 100%; 
+    color:#ba4e2f;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
+    
+}
+.count{
+    color: #515555;
+
+}
+
+
+
+
+/* footer */
+
+footer{
+    /* border: 2px solid   green; */
+    align-items: center;
+    width: 100%;
+  
+
+}
+.backtotop{
+    width: 100%;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3%;
+    margin-bottom: 3.5%;
+
+}
+.privacy-signup{
+    /* border: 2px solid   green; */
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.signup{
+    /* border: 2px solid rgba(0, 19, 128, 0.882); */
+    text-align: center;
+    width: 40%;
+}
+
+  
+.ppolicy{
+    /* border: 2px solid rgba(0, 19, 128, 0.882); */
+    text-align: center;
+    width: 30%;
+
+} 
+.faq{
+    /* border: 2px solid rgba(0, 19, 128, 0.882); */
+    text-align: center;
+    width: 20%;
+
+
+
+}
+.copyright{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+
+    
+}
+.crdft{
+    font-weight: 500;
+}
+.copy{
+    height: 100px;
+    margin: 2%;
+    /* border: 2px solid rgba(0, 19, 128, 0.882); */
+}
+
+
+
+
+@media screen and (max-width:1500px) {
+    body{
+        /* background-color: #4e5507; */
+    }
+    .store{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+
+@media screen and (max-width:1400px) {
+    body{
+        /* background-color: #daec0c; */
+    }
+    .store{
+        width: 84%;
+        margin-left: 8%;
+    }
+}
+@media screen and (max-width:1300px) {
+    body{
+        /* background-color: #7f1818; */
+    }
+    .store{
+        width: 88%;
+        margin-left: 6%;
+    }
+}@media screen and (max-width:1200px) {
+    body{
+        /* background-color: #ec207b; */
+    }
+    .store{
+        width: 90%;
+        margin-left: 5%;
+    }
+}@media screen and (max-width:1100px) {
+    body{
+        /* background-color: #50f7c2; */
+    }
+    .store{
+        width: 100%;
+        margin-left: 0%;
+    }
+}@media screen and (max-width:1000px) {
+    body{
+        /* background-color: #3c4e5f; */
+    }
+    .store{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .content-container{        
+        display: block;
+    }
+
+    .container-ebook{
+        width: 100%;
+    }
+    
+    .shortdetails-recommended{
+        display: block;
+        width: 100%;
+    
+    }
+    .shortmyimage{
+        height: 450px; 
+        width: 70%;
+        margin-left: 5%;
+    }
+    .shortmyimage img{
+        width:100%;
+        height: 100%;     
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .shortmytext{        
+        margin-top: 10%;
+        margin-bottom: 100px;
+        
+    }
+}
+
+@media screen and (max-width:900px) {
+    body{
+        /* background-color: #e8460c; */
+    }
+    .store{
+        width: 84%;
+        margin-left: 7%;
+    }
+  
+}
+@media screen and (max-width:800px) {
+    body{
+        /* background-color: #eea3e9; */
+    }
+    .store{
+        width: 87%;
+        margin-left: 6%;
+    }
+    .bookcontainer{
+        width: 25%; 
+    }
+   
+}
+
+
+@media screen and (max-width:700px) {
+    body{
+        /* background-color: #22780a; */
+    }
+    .store{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .bookcontainer{
+        width: 27%; 
+    }
+    .shortmyimage{
+        height: 350px; 
+        width: 70%;
+        margin-left: 5%;
+    }
+    .shortmyimage img{
+        width:100%;
+        height: 100%;     
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .privacy-signup{
+        display: block;
+
+    }
+    .ppolicy,
+    .signup,
+    .faq{
+        width: 100%;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width:600px) {
+    body{
+        /* background-color: #cd1f61; */
+    }
+    .store{
+        width: 95%;
+        margin-left: 3%;
+    }
+    .bookcontainer{
+        width: 27%; 
+    }
+}
+@media screen and (max-width:500px) {
+    body{
+        /* background-color: #5fbcc3; */
+    }
+    .store{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .bookcontainer{
+        width: 29%; 
+    }
+}

@@ -1,0 +1,494 @@
+body{
+    font-size: 18px;
+    margin: auto;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+nav{
+    border-bottom: 2px solid #c0bbba;
+}
+
+.container{
+    /* border: 2px solid blue; */
+    width: 80%;
+}
+
+.socialicon img{
+    height: 30px;
+    text-decoration-line: none;
+}
+
+header{
+    height: 100px;
+}
+
+.maincontainer{
+    /* border: 5px solid rgb(44, 18, 192); */
+    margin: 2%;
+    width: 96%;
+}
+
+.store{
+    /* border: 2px solid rgb(38, 192, 18); */
+    width: 75%;
+    margin-left: 13%;
+}
+
+.mycookbooksheading{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 2em;
+    color: #515555;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.content-container{
+    /* border: 2px solid rgb(18, 192, 99); */
+    width: 100%;
+    display: flex;
+}
+
+.container-ebook{
+    /* border: 2px solid rgb(215, 24, 196); */
+    width: 70%;
+}
+
+.heading-video{
+    font-size: 25px;
+    color: #515555;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.aboutme{
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    line-height: 1.875;
+}
+
+.advertisement{
+    border: 2px solid rgba(236, 234, 236, 0.786);
+    width: 450px;
+    height: 350px;
+    align-self: center;
+    justify-content: center;
+}
+
+.loader{
+    height: 50px;
+    width: 50px;
+    border: 5px solid #e3e3e3;
+    border-radius: 50%;
+    margin-top: 28%;
+    margin-left: 45%;    
+    border-right-color: #b87b6a;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.subscribe-detail{
+    border: 2px solid rgba(180, 180, 180, 0.845);
+    width: 95%;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.subscribe-p,
+.form-check{
+
+    text-align: center;
+    width: 100%;
+    margin: 0.5em 0 0.5em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.row{
+    /* border: 2px solid rgba(59, 40, 203, 0.845); */
+    width: 95%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.form-control{    
+    height: 40px;
+    width: 100%;
+}
+
+.form-group{
+    width: 80%;
+}
+
+.form-sbtn{
+    width: 100px;
+    /* border: 2px solid rgba(59, 40, 203, 0.845); */
+}
+
+.form-check{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.btn{
+    background-color: #ba4e2f;
+    color: white;
+}
+
+form{
+    width: 100%;
+    display: inline;
+    flex-wrap: wrap;
+}
+
+.recipeslink{
+    color: #ba4e2f;
+}
+
+.aboutme-image{
+    /* border: 2px solid rgb(50, 31, 220); */
+    width: auto;
+    height: auto;   
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.aboutme-image img{
+    width: auto;
+    height: auto;   
+}
+
+.wantmore{
+    color: #ba4e2f;
+}
+
+.disclosure{
+    color: #515555;
+    line-height: 2.3;
+}
+
+.pdisclosure{
+    line-height: 1.875;
+}
+
+.shortdetails-recommended{
+    /* border: 2px solid rgb(81, 91, 21); */
+    display: block;
+    width: 30%;
+    margin-top: 0;
+}
+
+.shortdetails-container{
+    border: 5px solid #f2f2f2;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 10PX;
+}
+
+.shortmyimage{
+    /* border: 2px solid rgb(24, 215, 135); */
+    height: 270px; 
+    margin-top: 10%;
+    width: 100%;
+ }
+
+.shortmyimage img{
+    width:70%;
+    height: 200px;     
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 15%;
+    /* border: 2px solid rgb(24, 215, 135); */
+}
+
+.shortmytext{
+    font-size: 15px;
+    width: 96%;
+    margin: 3%;
+    margin-top: 3%;
+    /* border: 2px solid rgb(24, 215, 135); */
+    line-height: 1.5rem;
+}
+
+.hi{
+    font-weight: 500;
+}
+
+.findme{
+    /* border: 2px solid rgb(69, 24, 215); */
+    color:#ba4e2f;
+}
+
+.learnmore{
+    /* border: 2px solid rgb(69, 24, 215); */
+    text-align: center;
+    color:#ba4e2f;
+}
+
+/* footer */
+
+footer{
+    /* border: 2px solid   green; */
+    align-items: center;
+    width: 100%;
+}
+
+.backtotop{
+    width: 100%;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3%;
+    margin-bottom: 3.5%;
+}
+
+.privacy-signup{
+    /* border: 2px solid   green; */
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.signup{
+    /* border: 2px solid rgba(0, 19, 128, 0.882); */
+    text-align: center;
+    width: 40%;
+}
+
+.ppolicy{
+    /* border: 2px solid rgba(0, 19, 128, 0.882); */
+    text-align: center;
+    width: 30%;
+} 
+
+.faq{
+    /* border: 2px solid rgba(0, 19, 128, 0.882); */
+    text-align: center;
+    width: 20%;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.crdft{
+    font-weight: 500;
+}
+
+.copy{
+    height: 100px;
+    margin: 2%;
+    /* border: 2px solid rgba(0, 19, 128, 0.882); */
+}
+
+@media screen and (max-width:1500px) {
+    body{
+        /* background-color: #4e5507; */
+    }
+    .store{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    body{
+        /* background-color: #daec0c; */
+    }
+    .store{
+        width: 84%;
+        margin-left: 8%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    body{
+        /* background-color: #7f1818; */
+    }
+    .store{
+        width: 88%;
+        margin-left: 6%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        /* background-color: #ec207b; */
+    }
+    .store{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    body{
+        /* background-color: #50f7c2; */
+    }
+    .store{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        /* background-color: #3c4e5f; */
+    }
+    .store{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .content-container{        
+        display: block;
+    }
+    .container-ebook{
+        width: 100%;
+    }
+    .shortdetails-recommended{
+        display: block;
+        width: 100%;
+    }
+    .shortmyimage{
+        height: 450px; 
+        width: 70%;
+        margin-left: 5%;
+    }
+    .shortmyimage img{
+        width:100%;
+        height: 100%;     
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .shortmytext{        
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    body{
+        /* background-color: #e8460c; */
+    }
+    .store{
+        width: 84%;
+        margin-left: 7%;
+    }
+    .subscribe-detail{
+        width: 100%;
+        margin: 1rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}  
+
+@media screen and (max-width:800px) {
+    body{
+        /* background-color: #eea3e9; */
+    }
+    .store{
+        width: 87%;
+        margin-left: 6%;
+    }
+    .bookcontainer{
+        width: 100%; 
+    }
+    .aboutme-image{
+        width: 100%;
+        height: 850px;   
+    }
+    .aboutme-image img{
+        width: 100%;
+        height: 850px;   
+    }
+    .subscribe-detail{
+        width: 100%;
+        margin: 2rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body{
+        /* background-color: #22780a; */
+    }
+    .store{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .form-group,
+    .form-sbtn{
+        /* border: 5px solid green; */
+        width: 100%;
+    }
+    .form-control{
+        width: 100%;
+    }
+    .btn{
+        margin-top: 2%;
+        width: 100%;
+    }
+    .shortmyimage{
+        height: 350px; 
+        width: 70%;
+        margin-left: 5%;
+    }
+    .shortmyimage img{
+        width:100%;
+        height: 100%;     
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .aboutme-image{
+        height: 750px;   
+    }
+    .aboutme-image img{
+        height: 750px;   
+    }
+    .privacy-signup{
+        display: block;
+    }
+    .ppolicy,
+    .signup,
+    .faq{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body{
+        /* background-color: #cd1f61; */
+    }
+    .store{
+        width: 95%;
+        margin-left: 3%;
+    }
+    .aboutme-image{
+        height: 650px;   
+    }
+    .aboutme-image img{
+        height: 650px;   
+    }
+}
+
+@media screen and (max-width:500px) {
+    body{
+        /* background-color: #5fbcc3; */
+    }
+    .store{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
